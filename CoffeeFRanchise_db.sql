@@ -77,6 +77,7 @@ GROUP BY MONTH(transaction_date)
 ORDER BY MONTH(transaction_date);
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  SELECT
 	product_type
 	,ROUND(SUM(unit_price*transaction_qty),1) AS Total_sales
@@ -86,6 +87,9 @@ GROUP BY product_type
 ORDER BY SUM(unit_price*transaction_qty)
 LIMIT 10 ;     -- This is a query to Get the Top 10 product in our database
       -- Query made Under the chart Requirement
+=======
+ 
+>>>>>>> Stashed changes
 =======
  
 >>>>>>> Stashed changes
