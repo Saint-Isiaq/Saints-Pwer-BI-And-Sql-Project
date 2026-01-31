@@ -104,7 +104,7 @@ GROUP BY product_type
 ORDER BY SUM(unit_price*transaction_qty) DESC
 LIMIT 10 ;
 
- 	/* --To Query SALES BY DAY | HOUR  [A] */
+ 	/* --To Query SALES BY DAY | HOUR [A] */
 
 SELECT
 	 SUM(transaction_qty) AS Total_quantity
